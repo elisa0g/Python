@@ -1,0 +1,7 @@
+nome=input('Digite um funcionário: ')
+empresa=input('Digite o nome da instituição: ')
+nfuncionarios=int(input('Digite o número de funcionários: '))
+mediamensal=float(input('Digite a média da mensalidade: '))
+print(nome + " trabalha na empresa " + empresa)
+print('Essa empresa conta com {} funcionários.'.format(nfuncionarios))
+print('Sua media mensal é de {}.'.format(mediamensal))
